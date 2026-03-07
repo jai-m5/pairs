@@ -1,0 +1,38 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  font-size: 24px;
+  color: var(--primary);
+}
+
+.app-main {
+  flex: 1;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.connect-prompt {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.connect-prompt h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: var(--primary);
+}

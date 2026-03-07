@@ -1,0 +1,41 @@
+.dex-screen {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.swap-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.swap-container input {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.swap-container button {
+  padding: 10px 20px;
+  background: var(--primary);
+  color: var(--bg);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.swap-container button:hover:not(:disabled) {
+  background: var(--primary-dark);
+}
+
+.swap-container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

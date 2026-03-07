@@ -1,0 +1,504 @@
+Note: The tool simplified the command to `git add -A ; git commit -m "Remove node_modules and dist from git tracking - use gitignore properly" ; git push origin main`, and this is the output of running that command instead:
+PS C:\liquidity> 
+warning: in the working copy of 'frontend/node_modules/stream-chain/defs.js', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/stream-chain/index.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/stream-chain/package.json
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/stream-chain/utils/FromIt
+erable.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/stream-chain/utils/Reduce
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/stream-chain/utils/asFun.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/stream-chain/utils/asGen.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/stream-chain/utils/comp.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/stream-chain/utils/fold.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/stream-chain/utils/gen.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/stream-chain/utils/scan.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/stream-chain/utils/skip.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/stream-chain/utils/skipWh
+ile.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/stream-chain/utils/take.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/stream-chain/utils/takeWh
+ile.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/stream-json/Assembler.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/stream-json/Disassembler.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/stream-json/Emitter.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/stream-json/LICENSE', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/stream-json/Parser.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/stream-json/README.md', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/stream-json/Stringer.js',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/stream-json/filters/Filte
+r.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/stream-json/filters/Filte
+rBase.js', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/stream-json/filters/Ignor
+e.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/stream-json/filters/Pick.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/stream-json/filters/Repla
+ce.js', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/stream-json/index.js', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/stream-json/jsonl/Parser.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/stream-json/jsonl/Stringe
+r.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/stream-json/package.json'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/stream-json/streamers/Str
+eamArray.js', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/stream-json/streamers/Str
+eamBase.js', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/stream-json/streamers/Str
+eamObject.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/stream-json/streamers/Str
+eamValues.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/stream-json/utils/Batch.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/stream-json/utils/Utf8Str
+eam.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/stream-json/utils/Verifie
+r.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/stream-json/utils/emit.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/stream-json/utils/withPar
+ser.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/superstruct/License.md', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/superstruct/Readme.md', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/superstruct/dist/error.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/superstruct/dist/index.cj
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/superstruct/dist/index.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/superstruct/dist/index.mj
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/superstruct/dist/struct.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/superstruct/dist/structs/
+coercions.d.ts', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/superstruct/dist/structs/
+refinements.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/superstruct/dist/structs/
+types.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/superstruct/dist/structs/
+utilities.d.ts', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/superstruct/dist/utils.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/superstruct/package.json'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/LICEN
+SE.md', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/READM
+E.md', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/lib/e
+ncoding.js', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/lib/e
+ncoding.lib.js', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/lib/e
+ncoding.lib.mjs', LF will be replaced by CRLF the next time Git touches it      warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/packa
+ge.json', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/src/e
+ncoding.js', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/text-encoding-utf-8/src/p
+olyfill.js', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/tr46/.npmignore', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/tr46/index.js', LF will b
+e replaced by CRLF the next time Git touches it                                 warning: in the working copy of 'frontend/node_modules/tr46/package.json', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/tslib/SECURITY.md', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/tslib/modules/index.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/tslib/package.json', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/tslib/tslib.es6.mjs', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/typescript/SECURITY.md', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/typescript/bin/tsc', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/typescript/bin/tsserver',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/typescript/lib/_tsc.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/typescript/lib/_tsserver.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/typescript/lib/_typingsIn
+staller.js', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/cs/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/de/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/es/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/fr/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/it/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/ja/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/ko/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.decora
+tors.d.ts', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.decora
+tors.legacy.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.dom.as
+ynciterable.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.dom.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.dom.it
+erable.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.collection.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.core.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.generator.d.ts', LF will be replaced by CRLF the next time Git touches it      warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.iterable.d.ts', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.promise.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.proxy.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.reflect.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.symbol.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2015
+.symbol.wellknown.d.ts', LF will be replaced by CRLF the next time Git touches it                                                                               warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2016
+.array.include.d.ts', LF will be replaced by CRLF the next time Git touches it  warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2016
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2016
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2016
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.arraybuffer.d.ts', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.date.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.object.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.string.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2017
+.typedarrays.d.ts', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.asyncgenerator.d.ts', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.asynciterable.d.ts', LF will be replaced by CRLF the next time Git touches it  warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.promise.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2018
+.regexp.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.array.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.object.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.string.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2019
+.symbol.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.bigint.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.date.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.number.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.promise.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.string.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2020
+.symbol.wellknown.d.ts', LF will be replaced by CRLF the next time Git touches it                                                                               warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2021
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2021
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2021
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2021
+.promise.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2021
+.string.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2021
+.weakref.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.array.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.error.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.object.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.regexp.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2022
+.string.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2023
+.array.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2023
+.collection.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2023
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2023
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2023
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.arraybuffer.d.ts', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.collection.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.object.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.promise.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.regexp.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es2024
+.string.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es5.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.es6.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.array.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.collection.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.decorators.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.disposable.d.ts', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.error.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.float16.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.full.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.intl.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.iterator.d.ts', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.promise.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.esnext
+.sharedmemory.d.ts', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.script
+host.d.ts', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.webwor
+ker.asynciterable.d.ts', LF will be replaced by CRLF the next time Git touches it                                                                               warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.webwor
+ker.d.ts', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.webwor
+ker.importscripts.d.ts', LF will be replaced by CRLF the next time Git touches it                                                                               warning: in the working copy of 'frontend/node_modules/typescript/lib/lib.webwor
+ker.iterable.d.ts', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/typescript/lib/pl/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/pt-br/diag
+nosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                        warning: in the working copy of 'frontend/node_modules/typescript/lib/ru/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/tr/diagnos
+ticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                           warning: in the working copy of 'frontend/node_modules/typescript/lib/tsc.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/typescript/lib/tsserver.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/typescript/lib/tsserverli
+brary.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/typescript/lib/tsserverli
+brary.js', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/typescript/lib/typesMap.j
+son', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/typescript/lib/typescript
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/typescript/lib/typescript
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/typescript/lib/typingsIns
+taller.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/typescript/lib/watchGuard
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/typescript/lib/zh-cn/diag
+nosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                        warning: in the working copy of 'frontend/node_modules/typescript/lib/zh-tw/diag
+nosticMessages.generated.json', LF will be replaced by CRLF the next time Git touches it                                                                        warning: in the working copy of 'frontend/node_modules/typescript/package.json',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/undici-types/LICENSE', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/undici-types/README.md', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/undici-types/agent.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/undici-types/api.d.ts', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/undici-types/balanced-poo
+l.d.ts', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/undici-types/cache.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/undici-types/client.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/undici-types/connector.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/undici-types/content-type
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/undici-types/cookies.d.ts
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/undici-types/diagnostics-
+channel.d.ts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/undici-types/dispatcher.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/undici-types/env-http-pro
+xy-agent.d.ts', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/undici-types/errors.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/undici-types/eventsource.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/undici-types/fetch.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/undici-types/file.d.ts', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/undici-types/filereader.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/undici-types/formdata.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/undici-types/global-dispa
+tcher.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/undici-types/global-origi
+n.d.ts', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/undici-types/handlers.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/undici-types/header.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/undici-types/index.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/undici-types/interceptors
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/undici-types/mock-agent.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/undici-types/mock-client.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/undici-types/mock-errors.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/undici-types/mock-interce
+ptor.d.ts', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/undici-types/mock-pool.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/undici-types/package.json
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/undici-types/patch.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/undici-types/pool-stats.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/undici-types/pool.d.ts', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/undici-types/proxy-agent.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/undici-types/readable.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/undici-types/retry-agent.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/undici-types/retry-handle
+r.d.ts', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/undici-types/util.d.ts', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/undici-types/webidl.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/undici-types/websocket.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/update-browserslist-db/LI
+CENSE', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/update-browserslist-db/RE
+ADME.md', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/update-browserslist-db/ch
+eck-npm-version.js', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/update-browserslist-db/cl
+i.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/update-browserslist-db/in
+dex.d.ts', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/update-browserslist-db/in
+dex.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/update-browserslist-db/pa
+ckage.json', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/update-browserslist-db/ut
+ils.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/use-sync-external-store/L
+ICENSE', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/use-sync-external-store/R
+EADME.md', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-shim.development.js', LF will be replaced by CRLF the next time Git touches it                                                       warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-shim.native.development.js', LF will be replaced by CRLF the next time Git touches it                                                warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-shim.native.production.js', LF will be replaced by CRLF the next time Git touches it                                                 warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-shim.production.js', LF will be replaced by CRLF the next time Git touches it                                                        warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-shim/with-selector.development.js', LF will be replaced by CRLF the next time Git touches it                                         warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-shim/with-selector.production.js', LF will be replaced by CRLF the next time Git touches it                                          warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-with-selector.development.js', LF will be replaced by CRLF the next time Git touches it                                              warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store-with-selector.production.js', LF will be replaced by CRLF the next time Git touches it                                               warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store.development.js', LF will be replaced by CRLF the next time Git touches it                                                            warning: in the working copy of 'frontend/node_modules/use-sync-external-store/c
+js/use-sync-external-store.production.js', LF will be replaced by CRLF the next time Git touches it                                                             warning: in the working copy of 'frontend/node_modules/use-sync-external-store/i
+ndex.js', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/use-sync-external-store/p
+ackage.json', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/use-sync-external-store/s
+him/index.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/use-sync-external-store/s
+him/index.native.js', LF will be replaced by CRLF the next time Git touches it  warning: in the working copy of 'frontend/node_modules/use-sync-external-store/s
+him/with-selector.js', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'frontend/node_modules/use-sync-external-store/w
+ith-selector.js', LF will be replaced by CRLF the next time Git touches it      warning: in the working copy of 'frontend/node_modules/utf-8-validate/LICENSE', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/utf-8-validate/README.md'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/utf-8-validate/binding.gy
+p', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/utf-8-validate/fallback.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/utf-8-validate/index.js',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/utf-8-validate/package.js
+on', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/utf-8-validate/src/valida
+tion.c', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/uuid/CHANGELOG.md', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/uuid/CONTRIBUTING.md', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/uuid/LICENSE.md', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/uuid/README.md', LF will 
+be replaced by CRLF the next time Git touches it                                warning: in the working copy of 'frontend/node_modules/uuid/dist/bin/uuid', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/ind
+ex.js', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/md5
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/par
+se.js', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/rng
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/sha
+1.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/str
+ingify.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/v1.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/v3.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/v35
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/v4.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/v5.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/val
+idate.js', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-browser/ver
+sion.js', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/index.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/md5.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/parse.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/rng.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/sha1.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/string
+ify.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/v1.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/v3.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/v35.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/v4.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/v5.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/valida
+te.js', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/uuid/dist/esm-node/versio
+n.js', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/uuid/dist/index.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/uuid/dist/md5-browser.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/uuid/dist/md5.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/uuid/dist/nil.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/uuid/dist/parse.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/uuid/dist/regex.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/uuid/dist/rng-browser.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/uuid/dist/rng.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/uuid/dist/sha1-browser.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/uuid/dist/sha1.js', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/uuid/dist/stringify.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/uuid/dist/uuid-bin.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/uuid/dist/v1.js', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/uuid/dist/v3.js', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/uuid/dist/v35.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/uuid/dist/v4.js', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/uuid/dist/v5.js', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/uuid/dist/validate.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/uuid/dist/version.js', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/uuid/package.json', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/uuid/wrapper.mjs', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/vite/LICENSE.md', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/vite/README.md', LF will 
+be replaced by CRLF the next time Git touches it                                warning: in the working copy of 'frontend/node_modules/vite/bin/openChrome.apple
+script', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/vite/bin/vite.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/vite/client.d.ts', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/vite/dist/client/client.m
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/vite/dist/client/env.mjs'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/vite/dist/node-cjs/public
+Utils.cjs', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/vite/dist/node/chunks/dep
+-BB45zftN.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/vite/dist/node/chunks/dep
+-BK3b2jBa.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/vite/dist/node/chunks/dep
+-D-7KCb9p.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/vite/dist/node/chunks/dep
+-Dnp7gl8U.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/vite/dist/node/chunks/dep
+-IQS-Za7F.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/vite/dist/node/cli.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/vite/dist/node/constants.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/vite/dist/node/index.d.ts
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/vite/dist/node/index.js',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/vite/dist/node/runtime.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/vite/dist/node/runtime.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/vite/dist/node/types.d-aG
+j9QkWt.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/vite/index.cjs', LF will 
+be replaced by CRLF the next time Git touches it                                warning: in the working copy of 'frontend/node_modules/vite/index.d.cts', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/vite/package.json', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/vite/types/customEvent.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/vite/types/hmrPayload.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/vite/types/hot.d.ts', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/vite/types/import-meta.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/vite/types/importGlob.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/vite/types/importMeta.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/vite/types/metadata.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/vite/types/package.json',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/webidl-conversions/LICENS
+E.md', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/webidl-conversions/README
+.md', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/webidl-conversions/lib/in
+dex.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/webidl-conversions/packag
+e.json', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/whatwg-url/LICENSE.txt', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/whatwg-url/README.md', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/whatwg-url/lib/URL-impl.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/whatwg-url/lib/URL.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/whatwg-url/lib/public-api
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/whatwg-url/lib/utils.js',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/whatwg-url/package.json',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/ws/LICENSE', LF will be r
+eplaced by CRLF the next time Git touches it                                    warning: in the working copy of 'frontend/node_modules/ws/README.md', LF will be
+ replaced by CRLF the next time Git touches it                                  warning: in the working copy of 'frontend/node_modules/ws/browser.js', LF will b
+e replaced by CRLF the next time Git touches it                                 warning: in the working copy of 'frontend/node_modules/ws/index.js', LF will be 
+replaced by CRLF the next time Git touches it                                   warning: in the working copy of 'frontend/node_modules/ws/lib/buffer-util.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/ws/lib/constants.js', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/ws/lib/event-target.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/ws/lib/extension.js', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/ws/lib/limiter.js', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/ws/lib/permessage-deflate
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/ws/lib/receiver.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/ws/lib/sender.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/ws/lib/stream.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/ws/lib/validation.js', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/ws/lib/websocket-server.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/ws/lib/websocket.js', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/ws/package.json', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/yallist/LICENSE', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/yallist/README.md', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/yallist/iterator.js', LF 
+will be replaced by CRLF the next time Git touches it                           warning: in the working copy of 'frontend/node_modules/yallist/package.json', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/yallist/yallist.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/zustand/LICENSE', LF will
+ be replaced by CRLF the next time Git touches it                               warning: in the working copy of 'frontend/node_modules/zustand/context.d.ts', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/zustand/context.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/zustand/esm/context.d.mts
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/zustand/esm/context.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/zustand/esm/context.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/zustand/esm/context.mjs',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/zustand/esm/index.d.mts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/zustand/esm/index.d.ts', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/zustand/esm/index.js', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/zustand/esm/index.mjs', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware.d.
+mts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware.d.
+ts', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware.js
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware.mj
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/co
+mbine.d.mts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/co
+mbine.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/de
+vtools.d.mts', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/de
+vtools.d.ts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/im
+mer.d.mts', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/im
+mer.d.ts', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/im
+mer.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/im
+mer.mjs', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/pe
+rsist.d.mts', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/pe
+rsist.d.ts', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/re
+dux.d.mts', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/re
+dux.d.ts', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/su
+bscribeWithSelector.d.mts', LF will be replaced by CRLF the next time Git touches it                                                                            warning: in the working copy of 'frontend/node_modules/zustand/esm/middleware/su
+bscribeWithSelector.d.ts', LF will be replaced by CRLF the next time Git touches it                                                                             warning: in the working copy of 'frontend/node_modules/zustand/esm/react.d.mts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/zustand/esm/react.d.ts', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/zustand/esm/react/shallow
+.d.mts', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/zustand/esm/react/shallow
+.d.ts', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/zustand/esm/react/shallow
+.js', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/zustand/esm/react/shallow
+.mjs', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/zustand/esm/shallow.d.mts
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/zustand/esm/shallow.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/zustand/esm/shallow.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/zustand/esm/shallow.mjs',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/zustand/esm/traditional.d
+.mts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/zustand/esm/traditional.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/zustand/esm/traditional.j
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/zustand/esm/traditional.m
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla.d.mts
+', LF will be replaced by CRLF the next time Git touches it                     warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla.mjs',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla/shall
+ow.d.mts', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla/shall
+ow.d.ts', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla/shall
+ow.js', LF will be replaced by CRLF the next time Git touches it                warning: in the working copy of 'frontend/node_modules/zustand/esm/vanilla/shall
+ow.mjs', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/zustand/index.d.ts', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/zustand/index.js', LF wil
+l be replaced by CRLF the next time Git touches it                              warning: in the working copy of 'frontend/node_modules/zustand/middleware.d.ts',
+ LF will be replaced by CRLF the next time Git touches it                       warning: in the working copy of 'frontend/node_modules/zustand/middleware.js', L
+F will be replaced by CRLF the next time Git touches it                         warning: in the working copy of 'frontend/node_modules/zustand/middleware/combin
+e.d.ts', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/zustand/middleware/devtoo
+ls.d.ts', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/zustand/middleware/immer.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/zustand/middleware/immer.
+js', LF will be replaced by CRLF the next time Git touches it                   warning: in the working copy of 'frontend/node_modules/zustand/middleware/persis
+t.d.ts', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/zustand/middleware/redux.
+d.ts', LF will be replaced by CRLF the next time Git touches it                 warning: in the working copy of 'frontend/node_modules/zustand/middleware/subscr
+ibeWithSelector.d.ts', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'frontend/node_modules/zustand/package.json', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/zustand/react.d.ts', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/zustand/react/shallow.d.t
+s', LF will be replaced by CRLF the next time Git touches it                    warning: in the working copy of 'frontend/node_modules/zustand/react/shallow.js'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/zustand/readme.md', LF wi
+ll be replaced by CRLF the next time Git touches it                             warning: in the working copy of 'frontend/node_modules/zustand/shallow.d.ts', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/zustand/shallow.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/zustand/system/context.de
+velopment.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/zustand/system/context.pr
+oduction.js', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/system/index.deve
+lopment.js', LF will be replaced by CRLF the next time Git touches it           warning: in the working copy of 'frontend/node_modules/zustand/system/index.prod
+uction.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/zustand/system/middleware
+.development.js', LF will be replaced by CRLF the next time Git touches it      warning: in the working copy of 'frontend/node_modules/zustand/system/middleware
+.production.js', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/zustand/system/middleware
+/immer.development.js', LF will be replaced by CRLF the next time Git touches itwarning: in the working copy of 'frontend/node_modules/zustand/system/middleware
+/immer.production.js', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'frontend/node_modules/zustand/system/react/shal
+low.development.js', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/zustand/system/react/shal
+low.production.js', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/zustand/system/shallow.de
+velopment.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/zustand/system/shallow.pr
+oduction.js', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/system/traditiona
+l.development.js', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/zustand/system/traditiona
+l.production.js', LF will be replaced by CRLF the next time Git touches it      warning: in the working copy of 'frontend/node_modules/zustand/system/vanilla.de
+velopment.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/zustand/system/vanilla.pr
+oduction.js', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/system/vanilla/sh
+allow.development.js', LF will be replaced by CRLF the next time Git touches it warning: in the working copy of 'frontend/node_modules/zustand/system/vanilla/sh
+allow.production.js', LF will be replaced by CRLF the next time Git touches it  warning: in the working copy of 'frontend/node_modules/zustand/traditional.d.ts'
+, LF will be replaced by CRLF the next time Git touches it                      warning: in the working copy of 'frontend/node_modules/zustand/traditional.js', 
+LF will be replaced by CRLF the next time Git touches it                        warning: in the working copy of 'frontend/node_modules/zustand/umd/context.devel
+opment.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/zustand/umd/context.produ
+ction.js', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/zustand/umd/index.develop
+ment.js', LF will be replaced by CRLF the next time Git touches it              warning: in the working copy of 'frontend/node_modules/zustand/umd/index.product
+ion.js', LF will be replaced by CRLF the next time Git touches it               warning: in the working copy of 'frontend/node_modules/zustand/umd/middleware.de
+velopment.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/zustand/umd/middleware.pr
+oduction.js', LF will be replaced by CRLF the next time Git touches it          warning: in the working copy of 'frontend/node_modules/zustand/umd/middleware/im
+mer.development.js', LF will be replaced by CRLF the next time Git touches it   warning: in the working copy of 'frontend/node_modules/zustand/umd/middleware/im
+mer.production.js', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/zustand/umd/react/shallow
+.development.js', LF will be replaced by CRLF the next time Git touches it      warning: in the working copy of 'frontend/node_modules/zustand/umd/react/shallow
+.production.js', LF will be replaced by CRLF the next time Git touches it       warning: in the working copy of 'frontend/node_modules/zustand/umd/shallow.devel
+opment.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/zustand/umd/shallow.produ
+ction.js', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/zustand/umd/traditional.d
+evelopment.js', LF will be replaced by CRLF the next time Git touches it        warning: in the working copy of 'frontend/node_modules/zustand/umd/traditional.p
+roduction.js', LF will be replaced by CRLF the next time Git touches it         warning: in the working copy of 'frontend/node_modules/zustand/umd/vanilla.devel
+opment.js', LF will be replaced by CRLF the next time Git touches it            warning: in the working copy of 'frontend/node_modules/zustand/umd/vanilla.produ
+ction.js', LF will be replaced by CRLF the next time Git touches it             warning: in the working copy of 'frontend/node_modules/zustand/umd/vanilla/shall
+ow.development.js', LF will be replaced by CRLF the next time Git touches it    warning: in the working copy of 'frontend/node_modules/zustand/umd/vanilla/shall
+ow.production.js', LF will be replaced by CRLF the next time Git touches it     warning: in the working copy of 'frontend/node_modules/zustand/vanilla.d.ts', LF
+ will be replaced by CRLF the next time Git touches it                          warning: in the working copy of 'frontend/node_modules/zustand/vanilla.js', LF w
+ill be replaced by CRLF the next time Git touches it                            warning: in the working copy of 'frontend/node_modules/zustand/vanilla/shallow.d
+.ts', LF will be replaced by CRLF the next time Git touches it                  warning: in the working copy of 'frontend/node_modules/zustand/vanilla/shallow.j
+s', LF will be replaced by CRLF the next time Git touches it                    On branch main
+nothing to commit, working tree clean
+info: please complete authentication in your browser...
+Everything up-to-date

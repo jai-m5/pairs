@@ -1,0 +1,90 @@
+.pool-info {
+  margin-top: 20px;
+}
+
+.pool-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pool-header h2 {
+  margin: 0;
+  color: var(--primary);
+  font-size: 22px;
+}
+
+.create-pool-btn {
+  padding: 10px 20px;
+  background: var(--primary);
+  color: var(--bg);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.create-pool-btn:hover {
+  background: var(--primary-dark);
+}
+
+.pools-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.no-pools {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 40px 20px;
+  background: var(--bg-secondary);
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  color: var(--text-dim);
+}
+
+.pool-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 16px;
+  transition: all 0.3s;
+}
+
+.pool-card:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 10px rgba(20, 241, 149, 0.1);
+}
+
+.pool-card h3 {
+  color: var(--primary);
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+
+.pool-details {
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.add-liquidity-btn {
+  width: 100%;
+  padding: 10px;
+  background: var(--primary);
+  color: var(--bg);
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.add-liquidity-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
