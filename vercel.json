@@ -4,8 +4,8 @@
   "installCommand": "cd frontend && npm install",
   "routes": [
     {
-      "src": "^/(?!.*\\.[^/]+$).*$",
-      "destination": "/index.html"
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
