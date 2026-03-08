@@ -23,8 +23,8 @@ const ConnectWallet: React.FC<ConnectWalletProps> = ({ onConnect, onDisconnect, 
       } else {
         alert('Please install Phantom wallet');
       }
-    } catch (error) {
-      alert('Error connecting: ' + error);
+    } catch (error: unknown) {
+      alert('Error connecting: ' + (error instanceof Error ? error.message : String(error)));
     } finally {
       setConnecting(false);
     }
@@ -37,7 +37,7 @@ const ConnectWallet: React.FC<ConnectWalletProps> = ({ onConnect, onDisconnect, 
       }
       localStorage.removeItem('phantomWallet');
       onDisconnect();
-    } catch (error) {
+    } catch (error: unknown) {
       console.error('Error disconnecting:', error);
     }
   };

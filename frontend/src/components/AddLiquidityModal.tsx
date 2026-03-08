@@ -28,8 +28,8 @@ const AddLiquidityModal: React.FC<AddLiquidityModalProps> = ({ pool, onClose, on
       };
       onLiquidityAdded(updatedPool);
       onClose();
-    } catch (error) {
-      alert('Error: ' + error);
+    } catch (error: unknown) {
+      alert('Error: ' + (error instanceof Error ? error.message : String(error)));
     } finally {
       setIsProcessing(false);
     }

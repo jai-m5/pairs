@@ -28,7 +28,7 @@ export async function validateTokenAddress(connection: Connection, tokenMint: st
     const tokenData = await getMint(connection, mint);
     const cached = tokenMetadataCache[tokenMint];
     return { address: tokenMint, symbol: cached?.symbol || 'UNKNOWN', decimals: tokenData.decimals };
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Token validation failed:', error);
     return null;
   }
@@ -42,7 +42,7 @@ export async function searchToken(connection: Connection, query: string): Promis
     try {
       new PublicKey(query);
       return await validateTokenAddress(connection, query);
-    } catch {
+    } catch (error: unknown) {
       return null;
     }
   }
@@ -63,7 +63,7 @@ export async function getTokenBalance(connection: Connection, walletAddress: Pub
     if (tokenAccounts.value.length === 0) return 0;
     const tokenAccount = tokenAccounts.value[0];
     return tokenAccount.account.data.parsed.info.tokenAmount.uiAmount || 0;
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Error getting token balance:', error);
     return 0;
   }
@@ -73,7 +73,7 @@ export async function getSolBalance(connection: Connection, walletAddress: Publi
   try {
     const balance = await connection.getBalance(walletAddress);
     return balance / LAMPORTS_PER_SOL;
-  } catch (error) {
+  } catch (error: unknown) {
     console.error('Error getting SOL balance:', error);
     return 0;
   }

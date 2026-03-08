@@ -38,7 +38,7 @@ const CreatePoolModal: React.FC<CreatePoolModalProps> = ({ onClose, onPoolCreate
           const balance = await getTokenBalance(connection, wallet, new PublicKey(tokenB.address));
           setBalanceB(balance);
         }
-      } catch (err) {
+      } catch (err: unknown) {
         console.error('Error fetching balances:', err);
       }
     };
@@ -60,8 +60,8 @@ const CreatePoolModal: React.FC<CreatePoolModalProps> = ({ onClose, onPoolCreate
       } else {
         setError('Token not found');
       }
-    } catch (err) {
-      setError('Error searching token: ' + err);
+    } catch (err: unknown) {
+      setError('Error searching token: ' + (err instanceof Error ? err.message : String(err)));
     }
   };
 
@@ -86,8 +86,8 @@ const CreatePoolModal: React.FC<CreatePoolModalProps> = ({ onClose, onPoolCreate
       const newPool = createPool(tokenA.address, tokenB.address, parsedAmountA, parsedAmountB);
       onPoolCreated(newPool);
       onClose();
-    } catch (err) {
-      setError('Error creating pool: ' + err);
+    } catch (err: unknown) {
+      setError('Error creating pool: ' + (err instanceof Error ? err.message : String(err)));
     } finally {
       setIsProcessing(false);
     }
