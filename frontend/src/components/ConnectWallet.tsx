@@ -47,7 +47,7 @@ const ConnectWallet: React.FC<ConnectWalletProps> = ({ onConnect, onDisconnect, 
     if (savedWallet && !connected) {
       onConnect(savedWallet);
     }
-  }, []);
+  }, [onConnect, connected]);
 
   if (connected && address) {
     return (

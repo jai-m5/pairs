@@ -8,7 +8,7 @@ interface DexScreenProps {
   walletAddress?: string;
 }
 
-const DexScreen: React.FC<DexScreenProps> = ({ selectedPool, walletAddress }) => {
+const DexScreen: React.FC<DexScreenProps> = ({ selectedPool }) => {
   const [swapAmount, setSwapAmount] = useState('');
 
   return (
