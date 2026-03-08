@@ -1,5 +1,3 @@
-import { create } from 'zustand';
-
 export interface Pool {
   address: string;
   tokenAMint: string;
