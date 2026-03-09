@@ -26,7 +26,10 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="app">
+    <div className="app" style={{background: '#0f1419', color: '#e0e0e0'}}>
+      <div style={{fontSize: '12px', padding: '5px', background: '#1a1f2e', textAlign: 'center', color: '#14f195'}}>
+        ✓ DEX Loaded
+      </div>
       <header className="app-header">
         <h1>🌊 Solana Liquidity DEX</h1>
         <ConnectWallet
