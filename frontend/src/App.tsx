@@ -3,7 +3,7 @@ import ConnectWallet from './components/ConnectWallet';
 import PoolInfo from './components/PoolInfo';
 import AddLiquidityModal from './components/AddLiquidityModal';
 import { Pool } from './store';
-import './App.css';
+import './styles/App.css';
 
 const App: React.FC = () => {
   const [walletAddress, setWalletAddress] = useState<string | null>(null);
