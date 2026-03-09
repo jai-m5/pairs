@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './styles/App.css';
 
 const App: React.FC = () => {
-  const [walletAddress, setWalletAddress] = useState<string | null>(null);
+  const walletAddress = null;
 
   return (
     <div className="app" style={{background: '#0f1419', color: '#14f195', padding: '20px', fontSize: '20px'}}>
