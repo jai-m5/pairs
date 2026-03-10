@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Connection } from '@solana/web3.js';
-import { Pool } from '../App';
+import { Pool } from '../store';
 import { getTokenBalance, getTokenSymbol, SOLANA_TOKENS } from '../utils/solana';
 import '../styles/Modal.css';
 

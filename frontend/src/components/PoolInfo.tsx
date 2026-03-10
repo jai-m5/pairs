@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Connection } from '@solana/web3.js';
-import { Pool } from '../App';
+import { Pool } from '../store';
 import CreatePoolModal from './CreatePoolModal';
 import '../styles/PoolInfo.css';
 

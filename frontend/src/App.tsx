@@ -5,17 +5,8 @@ import AddLiquidityModal from './components/AddLiquidityModal';
 import ConnectWallet from './components/ConnectWallet';
 import PoolInfo from './components/PoolInfo';
 import { getAllPoolsFromLocalStorage } from './utils/solana';
+import { Pool } from './store';
 import './styles/App.css';
-
-export interface Pool {
-  address: string;
-  tokenAMint: string;
-  tokenBMint: string;
-  tokenAAmount: number;
-  tokenBAmount: number;
-  lpTokens: number;
-  fee: number;
-}
 
 const App: React.FC = () => {
   const [connected, setConnected] = useState(false);
