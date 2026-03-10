@@ -1,20 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Connection } from '@solana/web3.js';
 import { Pool } from '../App';
-import { getTokenBalance, createPool, getTokenSymbol, SOLANA_TOKENS } from '../utils/solana';
+import { getTokenBalance, getTokenSymbol, SOLANA_TOKENS } from '../utils/solana';
 import '../styles/Modal.css';
 
 interface CreatePoolModalProps {
   onClose: () => void;
   onPoolCreated: (pool: Pool) => void;
-  walletAddress: string | null;
+  walletAddress: string | undefined;
   connection: Connection;
-}
-
-interface TokenInfo {
-  mint: string;
-  symbol: string;
-  balance: number;
 }
 
 const CreatePoolModal: React.FC<CreatePoolModalProps> = ({
@@ -138,12 +132,14 @@ const CreatePoolModal: React.FC<CreatePoolModalProps> = ({
 
     // ⚠️ CHECK WALLET BALANCE
     if (amountA > tokenABalance) {
-      setError(`❌ Insufficient ${getTokenSymbol(tokenAMint)} balance. You have: ${tokenABalance.toFixed(2)}, need: ${amountA}`);
+      const symbolA = getTokenSymbol(tokenAMint);
+      setError(`❌ Insufficient ${symbolA} balance. You have: ${tokenABalance.toFixed(2)}, need: ${amountA}`);
       return;
     }
 
     if (amountB > tokenBBalance) {
-      setError(`❌ Insufficient ${getTokenSymbol(tokenBMint)} balance. You have: ${tokenBBalance.toFixed(2)}, need: ${amountB}`);
+      const symbolB = getTokenSymbol(tokenBMint);
+      setError(`❌ Insufficient ${symbolB} balance. You have: ${tokenBBalance.toFixed(2)}, need: ${amountB}`);
       return;
     }
 
@@ -181,9 +177,6 @@ const CreatePoolModal: React.FC<CreatePoolModalProps> = ({
       setIsProcessing(false);
     }
   };
-
-  const tokenASymbol = tokenAMint ? getTokenSymbol(tokenAMint) : 'Token A';
-  const tokenBSymbol = tokenBMint ? getTokenSymbol(tokenBMint) : 'Token B';
 
   return (
     <div className="modal-overlay" onClick={onClose}>

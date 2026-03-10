@@ -37,9 +37,9 @@ const App: React.FC = () => {
     }
   }, []);
 
-  const handleConnectWallet = (address: string) => {
-    setWalletAddress(address);
-    setConnected(true);
+  const handleConnectWallet = (address: string | undefined) => {
+    setWalletAddress(address || null);
+    setConnected(!!address);
   };
 
   const handleDisconnect = () => {
@@ -87,7 +87,7 @@ const App: React.FC = () => {
                 pools={pools}
                 onAddLiquidity={handleAddLiquidity}
                 onCreatePool={handleCreatePool}
-                walletAddress={walletAddress}
+                walletAddress={walletAddress || undefined}
                 connection={connection}
               />
             </div>
@@ -95,7 +95,7 @@ const App: React.FC = () => {
               <DexScreen 
                 pools={pools}
                 selectedPool={selectedPool}
-                walletAddress={walletAddress}
+                walletAddress={walletAddress || undefined}
               />
             </div>
           </div>
@@ -112,7 +112,7 @@ const App: React.FC = () => {
           pool={selectedPool}
           onClose={() => setShowAddLiquidityModal(false)}
           onLiquidityAdded={handleLiquidityAdded}
-          walletAddress={walletAddress}
+          walletAddress={walletAddress || undefined}
         />
       )}
     </div>

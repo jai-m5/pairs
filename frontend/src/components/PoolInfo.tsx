@@ -8,7 +8,7 @@ interface PoolInfoProps {
   pools: Pool[];
   onAddLiquidity: (pool: Pool) => void;
   onCreatePool: (pool: Pool) => void;
-  walletAddress: string | null;
+  walletAddress: string | undefined;
   connection: Connection;
 }
 
