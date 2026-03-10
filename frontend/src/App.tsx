@@ -17,14 +17,18 @@ const App: React.FC = () => {
   const [pools, setPools] = useState<Pool[]>([]);
   const [selectedPool, setSelectedPool] = useState<Pool | null>(null);
   const [showAddLiquidityModal, setShowAddLiquidityModal] = useState(false);
+  const [appError, setAppError] = useState<string | null>(null);
 
   useEffect(() => {
-    // Load pools from local storage
     try {
+      console.log('App: Loading pools...');
       const savedPools = getAllPoolsFromLocalStorage();
+      console.log('App: Loaded pools:', savedPools);
       setPools(savedPools);
     } catch (error) {
-      console.error('Error loading pools:', error);
+      const errMsg = error instanceof Error ? error.message : String(error);
+      console.error('App: Error loading pools:', errMsg);
+      setAppError('Failed to load pools: ' + errMsg);
     }
   }, []);
 
@@ -69,6 +73,23 @@ const App: React.FC = () => {
           address={walletAddress}
         />
       </header>
+
+      {appError && (
+        <div style={{
+          padding: '16px',
+          background: 'rgba(220, 38, 38, 0.1)',
+          border: '1px solid #dc2626',
+          color: '#dc2626',
+          margin: '16px',
+          borderRadius: '8px',
+          fontFamily: 'monospace',
+          fontSize: '13px',
+          whiteSpace: 'pre-wrap',
+          wordBreak: 'break-word'
+        }}>
+          ⚠️ Error: {appError}
+        </div>
+      )}
 
       <main className="app-main">
         {connected ? (
